@@ -1,0 +1,197 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.header-hero{
+font-weight: 600;
+}
+.side-nav{
+background-color: #13539B !important;	
+}
+
+.side-nav a{
+color: #fff !important;
+}
+
+.section-header{
+text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.6);
+}
+
+body, html{
+font-family: 'Trocchi', serif;
+}
+.navbar-fixed{
+height: 114px;
+}
+nav.nav-hero{
+background-color: transparent;
+}
+nav{
+height: 114px;
+line-height: 114px;
+}
+nav.nav-hero ul a, nav.nav-hero .brand-logo{
+color: #fff;
+}
+nav ul a, nav .brand-logo{
+color: #fff;
+}
+
+nav .button-collapse i{
+color: #3d3d3d;
+}
+
+.hero{
+background: url(../images/hero.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;	
+min-height: 700px;
+overflow: hidden;
+}
+.services{
+background: url(../images/services-tinted.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;	
+min-height: 700px;
+}
+.projects{
+background: url(../images/projects-blur.png);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;	
+min-height: 700px;
+}
+.about{
+background: url(../images/about-tinted.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;	
+min-height: 700px;
+}
+.contact{
+background: url(../images/contacts-blur.png);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;	
+min-height: 700px;
+}
+
+#arlogo{
+transform: none;
+transition: all .5s ease 0s;
+}
+#arlogo:hover{
+transform: rotateY(180deg);
+}
+
+.name{
+margin-top: 100px;
+}
+
+.name h1 {
+color: #fff;
+font-size: 6rem !important;
+text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.proj-title{
+font-family: 'Pacifico', cursive;
+}
+
+.content-hero{
+color: #fff;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.content-about{
+color: #fff;
+}
+
+.content-about span.about-text{
+padding: 4px;
+line-height: 45px;
+background-color: rgba(0,53,98,.5);
+}
+
+.proj-desc{
+background-color: rgba(255,255,255, .8); 
+}
+.slider .indicators {
+margin: 50px;
+z-index: 200;
+}
+.slider .indicators .indicator-item.active {
+background-color: #2962ff;
+}
+
+.slider .slides li img {
+height: 100%;
+width: 100%;
+background-size: none !important;
+background-position: center;
+
+}
+
+.row .col.proj {
+padding: 0;
+}
+
+.proj-desc{
+height: 400px;
+overflow: auto;
+}
+
+.form{
+background-color: rgba(255,255,255, .8); 
+padding: 20px;
+}
+
+.input-field, .input-field label{
+color: #0d47a1;
+}
+
+.contact-list ul{
+list-design: none;
+}
+
+#temp-slide1{
+background: url(../images/template-caffeina2.jpg);
+background-size: cover;
+background-repeat: no-repeat;	
+min-height: 400px;
+max-height: 400px;
+position: relative;
+}
+
+#temp-slide2{
+background: url(../images/template-galene.jpg);
+background-size: cover;
+background-repeat: no-repeat;	
+min-height: 400px;
+max-height: 400px;
+position: relative;
+}
+
+#temp-slide3{
+background: url(../images/template-infinity.jpg);
+background-size: cover;
+background-repeat: no-repeat;	
+min-height: 400px;
+max-height: 400px;
+position: relative;
+}
+
+.temp-desc{
+position: absolute; bottom: 0px; padding: 5px; width: auto; text-align: left; background-color: rgba(8, 93, 173, .5);
+}

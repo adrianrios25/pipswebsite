@@ -1,0 +1,66 @@
+.header-hero{
+  font-weight: 600;
+}
+.side-nav{
+  background-color: #13539B !important; 
+}
+
+.side-nav a{
+  color: #fff !important;
+}
+
+.section-header{
+text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.6);
+}
+
+.navbar-fixed{
+  height: 114px;
+}
+nav.nav-hero{
+  background-color: transparent;
+}
+nav{
+  height: 114px;
+  line-height: 114px;
+}
+nav.nav-hero ul a, nav.nav-hero .brand-logo{
+  color: #fff;
+}
+nav ul a, nav .brand-logo{
+  color: #fff;
+}
+
+nav .button-collapse i{
+  color: #3d3d3d;
+}
+
+.hero{
+  background: url(images/hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  min-height: 700px;
+  overflow: hidden;
+}
+
+#arlogo{
+  width: 100px;
+  transform: none;
+  transition: all .5s ease 0s;
+}
+
+#arlogo:hover{
+  transform: rotateY(180deg);
+}
+.name h1 {
+    color: #fff;
+    font-size: 6rem !important;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.content-hero {
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+

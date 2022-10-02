@@ -1,0 +1,49 @@
+.projects{
+	background: url(./images/projects-blur.png);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+	min-height: 700px;
+	font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.proj-desc{
+	background-color: rgba(255,255,255, .8); 
+}
+
+.slider .indicators {
+	margin: 50px;
+	z-index: 200;
+}
+
+.slider .indicators .indicator-item.active {
+	background-color: #2962ff;
+}
+
+.slider .slides li img {
+	height: 100%;
+	width: 100%;
+	background-size: none !important;
+	background-position: center;
+
+}
+
+.row .col.proj {
+	padding: 0;
+}
+
+.each-slide{
+	background-color: rgba(255,255,255,0.7);
+}
+
+.each-slide > div{
+	height: 400px;
+	overflow: hidden;
+	background-size: 100%;
+}
+.proj-desc{
+	height: 400px;
+	overflow: auto;
+}

@@ -1,0 +1,35 @@
+.about{
+  background: url(./images/about-tinted.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  min-height: 700px;
+}
+
+.content-about{
+  color: #fff;
+}
+
+.content-about span.about-text{
+  padding: 4px;
+  line-height: 45px;
+  background-color: rgba(0,53,98,.5);
+}
+
+.proj-title{
+  font-family: 'Pacifico', cursive;
+  font-size: 2.92rem; 
+  line-height: 110%;
+}
+
+.experience > .row{
+  border: 20px solid #448aff;
+}
+
+img.responsive-img.me{
+  max-width: 75%;
+  height: auto;
+  margin: auto;
+  display: block;
+}

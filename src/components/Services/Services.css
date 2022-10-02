@@ -1,0 +1,46 @@
+.services{
+  background: url(images/services-tinted.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  min-height: 700px;
+}
+
+#temp-slide1{
+  background: url(images/template-caffeina2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  min-height: 400px;
+  max-height: 400px;
+  position: relative;
+  }
+
+#temp-slide2{
+  background: url(images/template-galene.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  min-height: 400px;
+  max-height: 400px;
+  position: relative;
+}
+
+#temp-slide3{
+  background: url(images/template-infinity.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  min-height: 400px;
+  max-height: 400px;
+  position: relative;
+}
+
+.temp-desc{
+  position: absolute;
+  bottom: 0px;
+  padding: 5px;
+  top: 0;
+  width: auto;
+  text-align: center;
+  background-color: rgba(8, 93, 173, .5);
+  width: 100%;
+}
