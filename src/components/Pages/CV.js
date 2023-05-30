@@ -39,10 +39,9 @@ function CV() {
                                     </div>
                                 </div>
                                 <div className="cv-tech-stack w-100 mt-1">
-                                    <h4>Teck Stack</h4>
+                                    <h4>Tech Stack</h4>
                                     <div className="">
                                         <ul>
-                                            <li>HTML, CSS</li>
                                             <li>HTML, CSS</li>
                                             <li>MYSQL / POSTGRESQL / MONGODB</li>
                                             <li>PHP</li>
@@ -52,6 +51,7 @@ function CV() {
                                             <li>JAVASCRIPT</li>
                                             <li>ANGULAR (TS)</li>
                                             <li>REACTJS</li>
+                                            <li>TypeScript</li>
                                             <li>NODEJS</li>
                                             <li>EXPRESSJS</li>
                                         </ul>
